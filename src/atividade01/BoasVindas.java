@@ -4,7 +4,7 @@ package atividade01;
  */
 public class BoasVindas {
     public static void main(String[] args) {
-        System.out.println("Bem-vindo!");
+        System.out.println("Bem-vindo!" );
     }
    
 }
