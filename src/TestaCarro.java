@@ -11,10 +11,10 @@
 public class TestaCarro {
     public static void main(String[] args) {
         Carro meuCarro = new Carro();
-        meuCarro.ano = 1996;
-        meuCarro.marca = "Fiat";
-        meuCarro.valor = 12_500.00;
-        System.out.println("Valor de meuCarro: " + meuCarro.valor);
+        meuCarro.setAno(1996);
+        meuCarro.setMarca("Fiat");
+        meuCarro.setValor(12_500.00);
+        System.out.println("Valor de meuCarro: " + meuCarro.getValor());
         if (meuCarro.serPopular()) {
             System.out.println("meuCarro é popular");
         }
