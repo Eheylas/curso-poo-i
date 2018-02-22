@@ -10,12 +10,14 @@
  */
 public class Funcionario extends Pessoa{
     
-    public Funcionario(String nome, int sexo) {
+    public Funcionario(String nome, int sexo, int matricula, double salario) {
         super(nome, sexo);
+        this.matricula = matricula;
+        this.salario = salario;
     }
     
-    private int matricula;
-    private double salario;
+    protected int matricula;
+    protected double salario;
 
     public int getMatricula() {
         return matricula;
@@ -25,15 +27,6 @@ public class Funcionario extends Pessoa{
         return salario;
     }
 
-    public void setMatricula(int matricula) {
-        this.matricula = matricula;
-    }
-
-    public void setSalario(double salario) {
-        this.salario = salario;
-    }
-
-    @Override
     public String toString() {
         return "FICHA DO FUNCIONARIO \nNome: "   + this.getNome()
                                                  + "\nMatricula: " + this.getMatricula()
