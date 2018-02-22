@@ -2,11 +2,12 @@
 package atividade01;
  class NumeroParImpar {
      public static void main(String[] args) {
-         int numero = 5;
+         int numero = 76;
          int resto = 2;
-         int calculo = numero % resto;
          
-         if(calculo == 0){
+         resto = numero % resto;
+         
+         if(resto == 0){
             System.out.println("Esse número é par!!");
         }
          else{
