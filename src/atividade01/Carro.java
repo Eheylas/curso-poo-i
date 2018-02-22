@@ -29,7 +29,7 @@ public class Carro {
     }
     
     String getMarca() {
-        return this.marca;
+        return marca;
     }
     
     void setMarca(String marca) {
@@ -37,7 +37,7 @@ public class Carro {
     }
     
     int getAno() {
-        return this.ano;
+        return ano;
     }
     
     void setAno(int ano) {
@@ -45,7 +45,7 @@ public class Carro {
     }
     
     double getValor() {
-        return this.valor;
+        return valor;
     }
     
     void setValor(double valor) {
