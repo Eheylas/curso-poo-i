@@ -14,6 +14,7 @@ public class Gerente extends Funcionario {
     
     Gerente(int matricula, String nome, int sexo, double salario, double bonus) {
         super(matricula, nome, sexo, salario);
+        this.bonus = bonus;
     }
     
     public double getSalario() {
