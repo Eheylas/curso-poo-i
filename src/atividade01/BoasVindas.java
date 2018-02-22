@@ -1,17 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package atividade01;
+
+import javax.swing.JOptionPane;
 
 /**
  *
- * @author 1714290024
+ * @author 1714290040
  */
 public class BoasVindas {
-
     public static void main(String[] args) {
-        System.out.println("Bem-vindo!");
+        System.out.println("Boas Vindas!");
+        JOptionPane.showMessageDialog(null, "Boas Vindas!");
     }
+    
 }
