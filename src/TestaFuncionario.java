@@ -10,12 +10,14 @@
  */
 public class TestaFuncionario {
     public static void main(String[] args) {
-        Funcionario funcionario = new Funcionario("Alberto", "Masculino");
+        Funcionario funcionario = new Funcionario("Alberto", Pessoa.SEXO_MASCULINO);
         funcionario.setMatricula(212121);
-        funcionario.setSalario(23_000);
+        funcionario.setSalario(23_000.00);
         System.out.println("FICHA DO FUNCIONARIO \nNome: "      + funcionario.getNome()
                                                  + "\nMatricula: " + funcionario.getMatricula()
                                                  + "\nSexo: "      + funcionario.getSexo()
                                                  + "\nSalario: "   + funcionario.getSalario());
+        
+        System.out.println(funcionario);
     }
 }

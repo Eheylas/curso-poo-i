@@ -10,7 +10,7 @@
  */
 public class TestaPessoa {
     public static void main(String[] args) {
-        Pessoa pessoa = new Pessoa("Marcus", "Masculino");
+        Pessoa pessoa = new Pessoa("Marcus", Pessoa.SEXO_MASCULINO);
         System.out.println("Nome da pessoa: " + pessoa.getNome());
         System.out.println("Sexo da pessoa: " + pessoa.getSexo());
     }
