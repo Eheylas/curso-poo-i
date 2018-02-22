@@ -10,9 +10,9 @@ package atividade01;
  * @author 1714290026
  */
 public class Carro {
-    String marca;
-    int ano;
-    double valor;
+    private String marca;
+    private int ano;
+    private double valor;
     
     boolean serPopular() {
         if(valor < 25000) {
@@ -26,5 +26,29 @@ public class Carro {
     double calcularDepreciacao(int ano) {
         double valorDepreciado = (ano - this.ano) * 0.01 * valor;
         return (valor - valorDepreciado);
+    }
+    
+    String getMarca() {
+        return this.marca;
+    }
+    
+    void setMarca(String marca) {
+        this.marca = marca;
+    }
+    
+    int getAno() {
+        return this.ano;
+    }
+    
+    void setAno(int ano) {
+        this.ano = ano;
+    }
+    
+    double getValor() {
+        return this.valor;
+    }
+    
+    void setValor(double valor) {
+        this.valor = valor;
     }
 }
