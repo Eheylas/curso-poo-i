@@ -25,7 +25,10 @@ public class SerieFibonacci {
         int numero = 0;
         
         for (int i = 0; i < 10; i++) {
-            
+            anterior = proximo;
+            proximo += numero;
+            numero = anterior;
+            System.out.println(numero); 
         }
            
      }
