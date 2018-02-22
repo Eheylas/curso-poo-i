@@ -9,6 +9,5 @@ public class MultiplosDeTres {
                System.out.println(i);
            }
         }
-    }
-    
+    }  
 }
