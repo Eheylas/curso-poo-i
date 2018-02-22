@@ -15,8 +15,9 @@ public class TestaGerente {
         
         System.out.println(g1);
         
-        Funcionario f2 = new Funcionario(0203,"HHHH",1,1203.99);
+        Funcionario f1 = new Funcionario(0203,"HHHH",1,1203.99);
         
-        System.out.println(f2);
+        System.out.println(f1);
+        
     }
 }
