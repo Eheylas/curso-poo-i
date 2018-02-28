@@ -7,7 +7,7 @@ public class SerieFibonacci {
         
         for (int i = 0; i < 10; i++) {
             anterior = proximo;
-            proximo = proximo + numero;
+            proximo += numero;
             numero = anterior;
             
             System.out.println(numero);
