@@ -4,7 +4,7 @@ package atividade01;
  */
 public class ConversorSegundosEmHorasMinutosSegundos {
     public static void main(String[] args) {
-        int segundos =9999, horas = segundos/3600,minutos;
+        int segundos =10921, horas = segundos/3600,minutos;
         segundos = segundos % 3600;
         minutos = segundos /60;
         segundos = segundos % 60;
