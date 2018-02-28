@@ -2,17 +2,17 @@
 package atividade01;
 
 public class Carro {
-    public String marca;
-    public int ano;
-    public double valor;
+    private String marca;
+    private int ano;
+    private double valor;
     
     public boolean serPopular(){
-        return valor < 25.000;      
+        return this.getValor() < 25.000;      
     }
     public double calcularDepreciacao(int ano){
         
-        double valorDepreciado = ano - this.ano * 0.01 * this.valor;
-        return valor - valorDepreciado;
+        double valorDepreciado = ano - this.getAno() * 0.01 * this.getValor();
+        return this.getValor() - valorDepreciado;
         
     }
 
