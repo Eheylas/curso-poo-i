@@ -1,3 +1,5 @@
+package atividade01;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,10 +10,14 @@
  *
  * @author 1714290010
  */
-public class TestaPessoa {
+public class NumeroParImpar {
     public static void main(String[] args) {
-        Pessoa pessoa = new Pessoa("Marcus", Pessoa.SEXO_MASCULINO);
-        System.out.println("Nome da pessoa: " + pessoa.getNome());
-        System.out.println("Sexo da pessoa: " + pessoa.getSexo());
+        int numero = 3;
+        int resto = numero % 2;
+        if (resto == 0) {
+            System.out.println("Numero é par");
+        } else {
+            System.out.println("Numero é ímpar");
+        }
     }
 }

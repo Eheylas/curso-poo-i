@@ -1,3 +1,5 @@
+package atividade01;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,13 +10,10 @@
  *
  * @author 1714290010
  */
-public class MultiplosDeTres {
+public class TestaPessoa {
     public static void main(String[] args) {
-        for(int i = 0; i < 100; i++) {
-            if ((i % 3) == 0) {
-                System.out.println(i);
-            }
-        }
+        Pessoa pessoa = new Pessoa("Marcus", Pessoa.SEXO_MASCULINO);
+        System.out.println("Nome da pessoa: " + pessoa.getNome());
+        System.out.println("Sexo da pessoa: " + pessoa.getSexo());
     }
-    
 }
