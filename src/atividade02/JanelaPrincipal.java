@@ -18,7 +18,7 @@ public class JanelaPrincipal extends JFrame {
         janelaSobre = new JanelaSobre(this,true);
     }
     
-    public void exibir() {
+    public void exibir() {        
         setSize(640,480);
         setTitle("Aplicação GUI");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
