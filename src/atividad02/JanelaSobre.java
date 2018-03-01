@@ -15,11 +15,10 @@ public class JanelaSobre extends JDialog {
     }
 
     public void exibir() {
-        JDialog caixaDialogo = new JDialog();
-        caixaDialogo.setSize(320, 240);
-        caixaDialogo.setTitle("Sobre..");
-        caixaDialogo.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-        caixaDialogo.setVisible(true);
+        setSize(320, 240);
+        setTitle("Sobre..");
+        setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+        setVisible(true);
     }
 
 }
