@@ -16,6 +16,7 @@ public class TestaCaixaDialogo {
     public static void main (String[] args){
         JFrame janela = new JFrame();
         janela.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         janela.setVisible(true);
         
         JDialog caixaDialogo = new JDialog(janela);
