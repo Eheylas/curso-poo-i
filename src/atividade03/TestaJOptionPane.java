@@ -17,13 +17,7 @@ public class TestaJOptionPane {
         JOptionPane.showMessageDialog(null, "O valor informado foi: " + valor);
         int opcao = JOptionPane.showConfirmDialog(null, "Deseja continuar?",
                 "Confirmação", JOptionPane.YES_NO_OPTION);
-        
-        if (opcao == JOptionPane.YES_OPTION) {
-            JOptionPane.showMessageDialog(null, "A opção escolhida foi Sim");
-        }
-        else {
-            JOptionPane.showMessageDialog(null, "A opção escolhida foi Não");
-        }
+        JOptionPane.showMessageDialog(null, "A opção escolhida foi " + valor);
         
         JOptionPane.showMessageDialog(null, "O sistema estará em manutenção das 23hs a 04hs",
                 "Aviso", JOptionPane.INFORMATION_MESSAGE);
