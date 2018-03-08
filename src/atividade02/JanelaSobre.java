@@ -10,7 +10,7 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author 1714290010
+ * @author Yves Bodê
  */
 public class JanelaSobre extends JDialog {
 

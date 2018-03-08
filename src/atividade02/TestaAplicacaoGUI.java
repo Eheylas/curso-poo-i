@@ -7,7 +7,7 @@ package atividade02;
 
 /**
  *
- * @author 1714290010
+ * @author Yves Bodê
  */
 public class TestaAplicacaoGUI {
     public static void main(String[] args) {

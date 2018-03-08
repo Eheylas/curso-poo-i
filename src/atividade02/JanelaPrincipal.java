@@ -9,7 +9,7 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author 1714290010
+ * @author Yves Bodê
  */
 public class JanelaPrincipal extends JFrame{
     private JanelaSobre janelaSobre;

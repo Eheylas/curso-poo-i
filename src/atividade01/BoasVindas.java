@@ -8,7 +8,7 @@ package atividade01;
 
 /**
  *
- * @author 1714290010
+ * @author Yves Bodê
  */
 public class BoasVindas {
     public static void main(String[] args) {
