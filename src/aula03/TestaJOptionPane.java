@@ -17,6 +17,9 @@ public class TestaJOptionPane {
         JOptionPane.showMessageDialog(null, "O valor informado foi " + valor);
         int opcao = JOptionPane.showConfirmDialog(null, "Deseja continuar?", "Confirmação", JOptionPane.YES_NO_OPTION);
         JOptionPane.showMessageDialog(null, "A opção escolhida foi " + opcao);
+        if (opcao == JOptionPane.YES_OPTION) {
+            JOptionPane.showMessageDialog(null, "Partiu lanche!");
+        }
         
     }
 }
