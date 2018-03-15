@@ -7,11 +7,10 @@ package atividade01;
 
 /**
  *
- * @author 1714290024
+ * @author Rodrigo
  */
 public class BoasVindas {
-
     public static void main(String[] args) {
-        System.out.println("Bem-vindo!");
+        System.out.println("Bem vindos");
     }
 }
