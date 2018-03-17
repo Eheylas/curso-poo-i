@@ -18,7 +18,6 @@ public class TestaMensagemBoasVindas {
         else{
             JOptionPane.showMessageDialog(null, "O programa foi encerrado.","Alerta",
             JOptionPane.WARNING_MESSAGE);
-        }
-   
+        }   
     }
 }
