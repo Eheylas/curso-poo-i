@@ -9,13 +9,13 @@
  * @author 1714290022
  * 
  */
-public class BoasVindas {
+public class BalancoTrimestral {
     public static void main(String[] args) {
-        System.out.println("Bem Vindo!");
+       double jgastos = 15040.00;
+      double  fgastos = 23004.70;
+      double fmarço= 17010.04;
+      double Tgastos= jgastos + fgastos + fmarço;
+        System.out.println("Gasto do Trimestre=R$" +Tgastos);
+                
     }
-
 }
-    
-
-
-
