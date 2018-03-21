@@ -1,4 +1,4 @@
-package atividad02;
+package atividade02;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 /*

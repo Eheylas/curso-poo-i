@@ -1,4 +1,4 @@
-package atividad02;
+package atividade02;
 import javax.swing.JDialog;
 /*
  * @author 1714290048

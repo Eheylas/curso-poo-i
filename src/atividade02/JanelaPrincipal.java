@@ -1,4 +1,4 @@
-package atividad02;
+package atividade02;
 
 import java.awt.HeadlessException;
 import javax.swing.JFrame;
