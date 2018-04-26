@@ -1,5 +1,5 @@
 
-package atividade4;
+package atividade04;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
