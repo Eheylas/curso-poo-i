@@ -24,21 +24,21 @@ import javax.swing.JRadioButton;
  * @author Felipe
  */
 public class FormularioBotao extends JFrame {
-    JButton botaoSalvar;
-    JButton botaoFechar;
+    private JButton botaoSalvar;
+    private JButton botaoFechar;
     
-    JCheckBox checkCursoAds;
-    JCheckBox checkCursoSegInf;
-    JCheckBox checkCursoJogos;
-    JCheckBox checkCursoRedes;
+    private JCheckBox checkCursoAds;
+    private JCheckBox checkCursoSegInf;
+    private JCheckBox checkCursoJogos;
+    private JCheckBox checkCursoRedes;
     
-    JRadioButton radioBolsaIntegral100;
-    JRadioButton radioBolsaIntegral75;
-    JRadioButton radioBolsaIntegral50;
-    JRadioButton radioBolsaIntegral25;
-    JRadioButton radioSemBolsa;
+    private JRadioButton radioBolsaIntegral100;
+    private JRadioButton radioBolsaIntegral75;
+    private JRadioButton radioBolsaIntegral50;
+    private JRadioButton radioBolsaIntegral25;
+    private JRadioButton radioSemBolsa;
     
-    int quantidadeCursos;
+    private int quantidadeCursos = 0;
     
     public FormularioBotao() {
         ActionListener ouvinte = new ActionListener() {
