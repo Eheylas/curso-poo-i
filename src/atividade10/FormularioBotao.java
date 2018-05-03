@@ -5,7 +5,6 @@
  */
 package atividade10;
 
-import com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
