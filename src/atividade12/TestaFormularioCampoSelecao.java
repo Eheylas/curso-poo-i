@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package atividade11;
+package atividade12;
 
 /**
  *
  * @author Felipe
  */
-public class TestaFormularioCampoEdicao {
+public class TestaFormularioCampoSelecao {
     public static void main(String[] args) {
-        FormularioCampoEdicao formulario = new FormularioCampoEdicao();
+        FormularioCampoSelecao formulario = new FormularioCampoSelecao();
         formulario.setVisible(true);
     }
 }
